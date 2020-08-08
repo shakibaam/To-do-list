@@ -1,0 +1,67 @@
+body {
+
+    width: 80%;
+    margin: 50px auto;
+    text-align: center;
+    width: 80%;
+    background-image: linear-gradient(to right, #94bbe9, #94e9e9);
+
+}
+
+#enter-task {
+    background-color: plum;
+    text-decoration-color: white;
+    padding: 10px;
+    width: 20%;
+    border: solid black;
+
+}
+
+#add-task{
+  height: 3em;
+    width: 3em;
+    position: absolute;
+    background-color: #00FFFF;
+    border: solid black;
+
+}
+
+#add-task:hover{
+    background-color: gold;
+    transition: 0.5s;
+}
+
+#error{
+    border-radius: 15px 15px;
+    background-color: red;
+    padding: 10px;
+    width: 20%;
+    margin: auto;
+    margin-bottom: 10px;
+    /*visibility: hidden;*/
+
+}
+
+ul{
+    color: black;
+    font-size:25px;
+    font-family: "Comic Sans MS";
+    width: 20%;
+    height: 5%;
+
+    margin: auto;
+    padding: 10px;
+    list-style: none;
+}
+
+
+
+#tasks-body{
+
+    margin: auto 10px;
+
+}
+
+
+
+
