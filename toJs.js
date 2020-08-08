@@ -62,6 +62,7 @@ addTask.addEventListener("click", function () {
         }
 
         ul.appendChild(li);
+        document.getElementById("enter-task").value='';
 
         checkBox.addEventListener("click",function () {
 
